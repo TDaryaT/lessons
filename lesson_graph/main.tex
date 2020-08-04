@@ -1,0 +1,101 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage[left=30mm, top=15mm, right=15mm, bottom=20mm, nohead, footskip=10mm]{geometry} % настройки полей документа
+
+\title{Графики функций}
+\author{Darya Tlepbergenova}
+
+\begin{document}
+
+\maketitle
+
+\pagestyle{plain}
+\tableofcontents % Вывод содержания
+
+\newpage
+\input{0. intro}
+
+\newpage
+\section{Элементарные функции}
+
+\subsection{Линейная функция $y=kx+b$}
+\input{1. linear_f}
+\subsubsection{Задания}
+\input{1.1 linear_f_task}
+\newpage
+
+\subsection{Модуль функции $y=|x|$}
+\input{2. module_f}
+
+\subsection{Функция корня $y= \sqrt{x}$}
+
+\input{3. sqrt_f}
+
+\subsection{Гипербола $y = \frac{1}{x}$}
+
+\input{4. hyperbola_f}
+\newpage
+
+\section{Типовые преобразования элементарных функций}
+\input{5. preobr}
+
+\subsection{Задания}
+\input{5.5 task}
+\newpage
+
+\section{Элементарные функции (продолжение)}
+\subsection{Квадратная функция $y=x^2$}
+\input{6. parabola}
+
+\subsubsection{Задания}
+\input{6.6 task}
+\newpage
+
+\subsection{Кубическая функция $y=x^3$}
+\input{7. kub}
+
+\newpage
+\section{Элементарные (посложнее) функции}
+\subsection{Тригонометрические функции}
+\input{8. trig}
+
+\subsubsection{Задания}
+\input{8.8 task}
+
+\newpage
+
+\subsection{Обратные тригонометрические функции}
+\input{9. obr_trig}
+
+\newpage
+\subsubsection{Задания}
+\input{9.9 obr_task}
+
+\newpage
+\subsection{Показательная функция $y = a^x$, где a - число}
+\input{99 pokaz}
+
+\subsubsection{Задания}
+\input{99.9 pokaz_task}
+
+\newpage
+\subsection{Логарифмическая функция $y = \log_a{x}$, где a - число}
+\input{999 log}
+
+\subsubsection{Задания}
+\input{999.9 log_task}
+
+\newpage
+\section{Что делать с не элементарными функциями?}
+\input{all_func}
+
+\newpage
+\section*{Приложение 1: Пример полного описания функции} \label{full}
+\addcontentsline{toc}{section}{Приложение 1: Пример полного описания функции}
+\input{full_gr}
+\end{document}
